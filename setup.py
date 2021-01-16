@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     author='Maximillian Merritts',
     author_email='merrittsmax@gmail.com',
-    packages=[],
+    packages=['Shapely-OCC-Interchange'],
     py_modules=[],
     scripts=[],
     url='https://github.com/ExordiumAndTerminus/Shapely-OCC-Interchange',
@@ -13,6 +13,9 @@ setup(
     description='An un-described package.',
     long_description=open('README.md').read(),
     install_requires=[
+        'shapely',
+        'OCC',
+        'UnitAlg'
         
     ],
     python_requires='~=3.7'
