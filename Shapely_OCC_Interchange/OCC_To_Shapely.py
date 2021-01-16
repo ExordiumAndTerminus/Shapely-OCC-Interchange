@@ -9,7 +9,9 @@ from OCC.Core.TopoDS import TopoDS_Face
 #TODO: fix up type hinting for this file!!
 #Functions for converting back and forth between Shapely and Python OCC
 
-#convert to list for ease of use afterward
+'''
+converts ordered dictionary to list - preserves order of input
+'''
 def orderedDict_To_List(oDict):
     edges = []
     for item in oDict.keys():
@@ -38,7 +40,9 @@ def getPointsFromWire(wire):
     points = orderedDict_To_List(edgesDict)
     return points
 
-# method to take in a face to make a Shapely polygon
+'''
+takes in topoDS_Face and returns shapely Polygon
+'''
 def getPointsFromFace(face):
     holes = []
     wiresToDiscretize = TopExp_Explorer(face, TopAbs_WIRE)
@@ -69,7 +73,7 @@ def getPointsFromFace(face):
 
         return shape, holes
 
-def Convert(face:TopoDS_Face) -> Polygon:
+def Face_to_Polygon(face:TopoDS_Face) -> Polygon:
     outline, holes = getPointsFromFace(face)
     poly = Polygon(outline, holes)
     return poly
