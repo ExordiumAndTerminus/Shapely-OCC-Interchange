@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: Shapely-OCC-Interchange
+Version: 0.0.1
+Summary: An un-described package.
+Home-page: https://github.com/ExordiumAndTerminus/Shapely-OCC-Interchange
+Author: Maximillian Merritts
+Author-email: merrittsmax@gmail.com
+License: LICENSE.txt
+Description: #Write your readme here.
+Platform: UNKNOWN
+Requires-Python: ~=3.7

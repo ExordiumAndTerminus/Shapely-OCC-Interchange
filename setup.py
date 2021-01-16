@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='Shapely-OCC-Interchange',
+    name='Shapely_OCC_Interchange',
     version='0.0.1',
     author='Maximillian Merritts',
     author_email='merrittsmax@gmail.com',
-    packages=['Shapely-OCC-Interchange'],
+    packages=['Shapely_OCC_Interchange'],
     py_modules=[],
     scripts=[],
     url='https://github.com/ExordiumAndTerminus/Shapely-OCC-Interchange',

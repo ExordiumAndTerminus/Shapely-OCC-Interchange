@@ -1,0 +1,10 @@
+README.md
+setup.py
+Shapely_OCC_Interchange/OCC_To_Shapely.py
+Shapely_OCC_Interchange/Shapely_To_OCC.py
+Shapely_OCC_Interchange/__init__.py
+Shapely_OCC_Interchange.egg-info/PKG-INFO
+Shapely_OCC_Interchange.egg-info/SOURCES.txt
+Shapely_OCC_Interchange.egg-info/dependency_links.txt
+Shapely_OCC_Interchange.egg-info/requires.txt
+Shapely_OCC_Interchange.egg-info/top_level.txt
